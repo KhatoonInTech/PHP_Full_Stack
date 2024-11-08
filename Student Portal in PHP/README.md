@@ -13,36 +13,47 @@
 <br>
 <br>
 
-![portal ](../Student Portal in PHP/images/portal.png)
+![portal ](/images/portal.png)
 
 </div>
 
 ---
 # Table of Contents
-
-1. [Overview](#overview)
-2. [Purpose](#purpose)
-3. [Project Structure](#project-structure)
-   1. [Main Files](#main-files)
-   2. [Assets](#assets)
-   3. [MySQL Files](#mysql-files)
-   4. [Views](#views)
-4. [Nav Bar Structure](#nav-bar-structure)
-   1. [Home](#home)
-   2. [About BZU](#about-bzu)
-   3. [About Department](#about-department)
-   4. [Exams & Results](#exams-results)
-5. [Technologies Used](#technologies-used)
-6. [Installation](#installation)
-   1. [Clone the Repository](#clone-the-repository)
-   2. [Navigate to the Project Directory](#navigate-to-the-project-directory)
-   3. [Setup the Database](#setup-the-database)
-   4. [Run the Application](#run-the-application)
-7. [Usage](#usage)
-8. [Testing](#testing)
-9. [Contributing](#contributing)
-10. [License](#license)
-11. [Contact](#contact)
+- [Overview](#overview)
+- [Purpose](#purpose)
+- [Project Structure](#project-structure)
+  - [Main Files](#main-files)
+  - [Assets](#assets)
+  - [MySQL Files](#mysql-files)
+  - [Views](#views)
+- [Header](#header)
+  - [Features](#features)
+- [Footer Section](#footer-section)
+  - [Features](#features-1)
+- [Nav Bar Structure](#nav-bar-structure)
+  - [Home](#home)
+  - [About BZU](#about-bzu)
+- [About Department](#about-department)
+  - [About CPE](#about-cpe)
+  - [Departmental Vision & Mission](#departmental-vision--mission)
+  - [Administration](#administration)
+  - [Faculty Members](#faculty-members)
+  - [Programs Offered](#programs-offered)
+- [Exams & Results](#exams--results)
+  - [Admission Schedule](#admission-schedule)
+  - [Semester Schedule](#semester-schedule)
+  - [All Examination Results](#all-examination-results)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+  - [Clone the Repository](#clone-the-repository)
+  - [Navigate to the Project Directory](#navigate-to-the-project-directory)
+  - [Setup the Database](#setup-the-database)
+  - [Run the Application](#run-the-application)
+- [Usage](#usage)
+- [Testing](#testing)
+- [Contributing](#contributing)
+  - [Code of Conduct](#code-of-conduct)
+- [License](#license)
 
 
 
@@ -315,23 +326,19 @@ To set up the Student Portal locally, follow these steps:
 ## Usage
 
 1. **Login as a Student or Admin**
-   - Use the provided credentials or register as a new user through the registration page.
+   - Use the provided credentials or register as a new user through the [registration page](../views/registration.php).
 
-2. **Explore the Dashboard**
-   - Navigate through various sections such as Courses, Assignments, Grades, and Messages.
+2. **Navigate the Dashboard**
+   - Access the main dashboard through [dashboard.php](../views/dashbord.php), which provides access to student-specific features.
 
-3. **Manage Courses**
-   - Enroll or drop courses as needed through the Course Management section.
+3. **Explore Academic Information**
+   - Visit the **About BZU** and **About Department** sections to view [University Vision & Mission](../views/uni-vision-mission.php), [Department Vision & Mission](../views/dep-vision-mission.php), [Programs Offered](../views/programs-offered.php), and [Faculty Information](../views/faculty.php).
 
-4. **Submit Assignments**
-   - Upload assignments directly through the Assignments section.
+4. **View Exams & Results**
+   - Check schedules in [Semester Schedule](../views/semSchedule.php) or view grades in [Results](../result.php).
 
-5. **Check Grades**
-   - View grades for completed assignments and courses in the Grades section.
-
-6. **Communicate with Faculty**
-   - Use the messaging system to send messages or questions to faculty members.
-
+5. **Access Notifications**
+   - Stay updated with important dates through [Admission Schedule](../views/notification.php).
 
 
 ## Testing
