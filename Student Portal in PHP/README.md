@@ -21,6 +21,7 @@
 # Table of Contents
 - [Overview](#overview)
 - [Purpose](#purpose)
+- [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
   - [Main Files](#main-files)
   - [Assets](#assets)
@@ -43,7 +44,6 @@
   - [Admission Schedule](#admission-schedule)
   - [Semester Schedule](#semester-schedule)
   - [All Examination Results](#all-examination-results)
-- [Technologies Used](#technologies-used)
 - [Installation](#installation)
   - [Clone the Repository](#clone-the-repository)
   - [Navigate to the Project Directory](#navigate-to-the-project-directory)
@@ -64,6 +64,16 @@ The **Student Portal in PHP** is a web-based application designed for educationa
 ## Purpose
 
 The project aims to simplify academic management by providing a centralized platform for students, faculty, and administrators. It offers functionalities such as secure user authentication, course management, assignment submission, result tracking, and real-time communication tools.
+
+## Technologies Used
+
+- **Backend**: PHP
+- **Database**: MySQL
+- **Frontend**: HTML, CSS, JavaScript
+- **Frameworks/Libraries**:
+  - Bootstrap (for responsive design)
+  - jQuery (for enhanced interactivity)
+
 
 ## Project Structure
 
@@ -102,7 +112,7 @@ Student Portal in PHP__|
                                                      |-TERMS.html
                                                      |-PRIVACY_POLICY.html
 
-![Project Structure](../images/project_structure.jpeg)
+![Project Structure](../Student%20Portal%20in%20PHP/images/project_structure.png)
 
 ### Main Files
 - **dashboard.php**: Displays the main student portal dashboard.
@@ -152,7 +162,7 @@ The **Header** is an essential part of every page, providing easy access to the 
 - **Quick Access**: Users can quickly navigate to critical sections such as their dashboard or course registration.
 - **Dynamic Content**: The header adjusts based on user authentication status, providing different options for logged-in users versus visitors (e.g., login/register buttons).
 
-![header ](../images/header.jpeg)
+![header ](../Student%20Portal%20in%20PHP/images/header.png)
 
 ---
 
@@ -168,7 +178,7 @@ The **Footer** provides additional information and links that are common across 
 - **Consistent Access**: No matter where users are on the site, the footer remains accessible and provides essential legal and contact information.
 - **Branding**: Reinforces the university's branding and offers a professional finish to each page.
 
-![footer ](../images/footer.jpeg)
+![footer ](../Student%20Portal%20in%20PHP/images/footer.png)
 
 ---
 
@@ -176,7 +186,7 @@ The **Footer** provides additional information and links that are common across 
 
 The navigation bar of the portal is organized into the following categories:
 
-![navbar ](../images/Nav_Bar.jpeg)
+![navbar ](../Student%20Portal%20in%20PHP/images/Nav_Bar.png)
 <br>
 |-Home (dashbord.php)
 |-About BZU
@@ -192,17 +202,17 @@ The navigation bar of the portal is organized into the following categories:
                                  |_Semester Schedule (semSchedule.php)
                                  |_All Examination Results (result.php)
 
-![navbar ](../images/navbar.jpeg)
+![navbar ](../Student%20Portal%20in%20PHP/images/navbar.png)
                                  
 
 ### Home
 - **dashbord.php**: The main dashboard of the portal, displaying relevant student information.
-![portal ](../images/portal.jpeg)
+![portal ](../Student%20Portal%20in%20PHP/images/portal.png)
 
 
 ### About BZU
 - **University Vision & Mission**: The vision and mission statement of the university [University Vision & Mission](../views/uni-vision-mission.php).
-  ![about uni ](../images/uni_mission.jpeg)
+  ![about uni ](../Student%20Portal%20in%20PHP/images/uni_mission.png)
 
 
 ## About Department
@@ -211,41 +221,41 @@ The navigation bar of the portal is organized into the following categories:
 - **File:** [`about-cpe.php`](../views/about-cpe.php)
 - **Description:** This page provides detailed information about the Center for Professional Education (CPE), including its mission, history, and objectives. It aims to introduce students and visitors to the role and impact of CPE in the academic community.
 - **Image Preview:**  
-  ![About CPE](../images/about_cpe1.jpeg)
-  ![About CPE](../images/about_cpe2.jpeg)
+  ![About CPE](../Student%20Portal%20in%20PHP/images/about_cpe1.png)
+  ![About CPE](../Student%20Portal%20in%20PHP/images/about_cpe2.png)
 
 
 ### Departmental Vision & Mission
 - **File:** [`dep-vision-mission.php`](../views/dep-vision-mission.php)
 - **Description:** This file contains the vision and mission statements of the department. It explains the department's core values, goals, and aspirations to shape future professionals and make meaningful contributions to the field.
 - **Image Preview:**  
-  ![Departmental Vision & Mission](../images/dep_vision_mission1.jpeg)
-  ![Departmental Vision & Mission](../images/dep_vision_mission2.jpeg)
-  ![Departmental Vision & Mission](../images/dep_vision_mission3.jpeg)
+  ![Departmental Vision & Mission](../Student%20Portal%20in%20PHP/images/dep_vision_mission1.png)
+  ![Departmental Vision & Mission](../Student%20Portal%20in%20PHP/images/dep_vision_mission2.png)
+  ![Departmental Vision & Mission](../Student%20Portal%20in%20PHP/images/dep_vision_mission3.png)
 
 
 ### Administration
 - **File:** [`admistration.php`](../views/admistration.php)
 - **Description:** This page provides an overview of the department’s administrative structure. It includes information about the key figures in administration, their roles, and responsibilities.
 - **Image Preview:**  
-  ![Administration](../images/administration.jpeg)
+  ![Administration](../Student%20Portal%20in%20PHP/images/administration.png)
 
 ### Faculty Members
 - **File:** [`faculty.php`](../views/faculty.php)
 - **Description:** The faculty page presents a list of department faculty members, showcasing their profiles, academic backgrounds, research interests, and contact details. It serves as a point of connection between students and faculty.
 - **Image Preview:**  
-  ![Faculty Members](../images/faculty1.jpeg)
-  ![Faculty Members](../images/faculty2.jpeg)
-  ![Faculty Members](../images/faculty3.jpeg)
+  ![Faculty Members](../Student%20Portal%20in%20PHP/images/faculty1.png)
+  ![Faculty Members](../Student%20Portal%20in%20PHP/images/faculty2.png)
+  ![Faculty Members](../Student%20Portal%20in%20PHP/images/faculty3.png)
 
 
 ### Programs Offered
 - **File:** [`programs-offered.php`](../views/programs-offered.php)
 - **Description:** This page lists all the academic programs available within the department. It includes program descriptions, course requirements, and details about specializations to help students choose a suitable academic path.
 - **Image Preview:**  
-  ![Programs Offered](../images/programs_offered1.jpeg)
-  ![Programs Offered](../images/programs_offered2.jpeg)
-  ![Programs Offered](../images/programs_offered3.jpeg)
+  ![Programs Offered](../Student%20Portal%20in%20PHP/images/programs_offered1.png)
+  ![Programs Offered](../Student%20Portal%20in%20PHP/images/programs_offered2.png)
+  ![Programs Offered](../Student%20Portal%20in%20PHP/images/programs_offered3.png)
 
 
 ---
@@ -256,14 +266,14 @@ The navigation bar of the portal is organized into the following categories:
 - **File:** [`notification.php`](../views/notification.php)
 - **Description:** This page displays the admission schedule for the upcoming academic term, including deadlines, requirements, and other important information for prospective students.
 - **Image Preview:**  
-  ![Admission Schedule](../images/admission_schedule.jpeg)
+  ![Admission Schedule](../Student%20Portal%20in%20PHP/images/admission_schedule.png)
 
 ### Semester Schedule
 - **File:** [`semSchedule.php`](../views/semSchedule.php)
 - **Description:** This file contains the academic semester schedule, listing important dates, holidays, exam periods, and deadlines, helping students to plan their semester effectively.
 - **Image Preview:**  
-  ![Semester Schedule](../images/semester_schedule1.jpeg)
-  ![Semester Schedule](../images/semester_schedule2.jpeg)
+  ![Semester Schedule](../Student%20Portal%20in%20PHP/images/semester_schedule1.png)
+  ![Semester Schedule](../Student%20Portal%20in%20PHP/images/semester_schedule2.png)
 
 
 ### All Examination Results
@@ -271,28 +281,20 @@ The navigation bar of the portal is organized into the following categories:
 - **Description:** The examination results page allows students to view their grades and performance for completed courses and exams. It provides a secure way for students to access their academic achievements.
 - **Image Preview:**
 The interface of **result form**  looks like this: 
-  ![Examination Results](../images/examination_results1.jpeg)
+  ![Examination Results](../Student%20Portal%20in%20PHP/images/examination_results1.png)
 
 The interface of **Result Card** looks like this  
-  ![Examination Results](../images/examination_results2.jpeg)
+  ![Examination Results](../Student%20Portal%20in%20PHP/images/examination_results2.png)
 
 The interface of **Error Message: Access Denied** appears when incorrect Name or Roll Number is added:  
-  ![Examination Results](../images/examination_results3.jpeg)
+  ![Examination Results](../Student%20Portal%20in%20PHP/images/examination_results3.png)
 
 The interface of **Error Message: Still Pending** appears when next/upcoming semester is choosen or when the result is not announced yet:  
-  ![Examination Results](../images/examination_results4.jpeg)
+  ![Examination Results](../Student%20Portal%20in%20PHP/images/examination_results4.png)
 
 
 ---
 
-## Technologies Used
-
-- **Backend**: PHP
-- **Database**: MySQL
-- **Frontend**: HTML, CSS, JavaScript
-- **Frameworks/Libraries**:
-  - Bootstrap (for responsive design)
-  - jQuery (for enhanced interactivity)
 
 ## Installation
 
@@ -317,7 +319,7 @@ To set up the Student Portal locally, follow these steps:
      $dbPass = 'your_password';
      $dbName = 'student_portal';
      ```
-![Database Config](../images/db.jpeg)
+![Database Config](../Student%20Portal%20in%20PHP/images/db.png)
 
 4. **Run the Application**
    - Start your local server (e.g., XAMPP or MAMP).
@@ -348,8 +350,8 @@ To ensure that your installation works correctly:
 1. Create test users (students and admin) in your database.
 2. Log in using these test accounts.
 3. Test all functionalities .
-![Register](../images/register.jpeg)
-![Login](../images/login.jpeg)
+![Register](../Student%20Portal%20in%20PHP/images/register.png)
+![Login](../Student%20Portal%20in%20PHP/images/login.png)
 
 
    
