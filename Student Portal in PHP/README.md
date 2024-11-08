@@ -13,7 +13,7 @@
 <br>
 <br>
 
-![portal ](../images/portal.jpeg)
+![portal ](../Student Portal in PHP/images/portal.png)
 
 </div>
 
