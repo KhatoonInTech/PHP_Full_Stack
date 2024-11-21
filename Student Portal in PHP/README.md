@@ -80,16 +80,27 @@ The project aims to simplify academic management by providing a centralized plat
 Here is the structure of the project:
 
 Student Portal in PHP__|
+
                                      |-dashbord.php
+				     
                                      |-index.php
+				     
                                      |-registration.php
+				     
                                      |-login.php
+				     
                                      |-logout.php
+				     
                                      |-header.php
+				     
                                      |-no_nav_header.php
+				     
                                      |-footer.php
+				     
                                      |-forgetpswd.php
+				     
                                      |-result.php
+				     
                                      |-assets----|
                                                        |-small_pixel-7.ttf
                                                        |-images
